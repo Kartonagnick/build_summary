@@ -1,6 +1,6 @@
 
 // --- Kartonagnick/build_summary                             [compilers/msvc.hpp]
-// [2025-11-04][05:20:00] 001 Kartonagnick PRE
+// [2025-11-04][05:20:00] 001 Kartonagnick    
 //   --- CastleOfDreams/compile                               [compilers/msvc.hpp]
 //   [2023-07-18][19:00:00] 014 Kartonagnick
 //     ... (many versions) ...

@@ -40,7 +40,7 @@
 
 --------------------------------------------------------------------------------
 
-[![P]][H] **v0.0.3 (dev)**
+[![S]][H] **v0.0.3 (dev)**
 --------------------------------------------------------------------------------
 [![V]][VE003] [![2025-11-04 05:20]][VE003]  
 
@@ -53,31 +53,31 @@
 | 2025-11-04 | 04:10 | [#3-dev-impl] | BEGIN  |  
 
 1. upd: `docs`  
-   - upd: `logo.png`          (003) PRE  
-   - upd: `changelog.md`      (003) PRE  
-   - upd: `history.md`        (003) PRE  
-   - upd: `chrono.md`         (003) PRE  
-   - upd: `docs.md`           (003) PRE  
+   - upd: `logo.png`           003  
+   - upd: `changelog.md`       003  
+   - upd: `history.md`         003  
+   - upd: `chrono.md`          003  
+   - upd: `docs.md`            003  
 2. upd: `test/sources`  
-   - upd: `test.ver`          (002) PRE  
-   - upd: `pch.hpp`           (002) PRE  
+   - upd: `test.ver`           002  
+   - upd: `pch.hpp`            002  
 3. upd: `include/build_summary`  
-   - upd: `build_summary.ver` (002) PRE  
-   - add: `message.hpp`       (001) PRE  
-   - add: `info.hpp`          (001) PRE  
+   - upd: `build_summary.ver`  002  
+   - add: `message.hpp`        001  
+   - add: `info.hpp`           001  
 4. add: `include/build_summary/private`  
-   - add: `show.hpp`          (002) PRE  
-   - add: `select.hpp`        (001) PRE  
-   - add: `cplusplus.hpp`     (003) PRE  
-   - add: `compilers.hpp`     (001) PRE  
+   - add: `show.hpp`           002  
+   - add: `select.hpp`         001  
+   - add: `cplusplus.hpp`      003  
+   - add: `compilers.hpp`      001  
 5. add: `include/build_summary/private/compilers`  
-   - add: `zfinal.hpp`        (001) PRE  
-   - add: `msvc_tag.hpp`      (004) PRE  
-   - add: `msvc.hpp`          (001) PRE  
-   - add: `mingw.hpp`         (004) PRE  
-   - add: `gcc.hpp`           (004) PRE  
-   - add: `clang.hpp`         (004) PRE  
-6. upd: `project.root`        (003) PRE  
+   - add: `zfinal.hpp`         001  
+   - add: `msvc_tag.hpp`       004  
+   - add: `msvc.hpp`           001  
+   - add: `mingw.hpp`          004  
+   - add: `gcc.hpp`            004  
+   - add: `clang.hpp`          004  
+6. upd: `project.root`         003  
 
 [#3-dev-impl]: tasks/2025-11-04-0003-dev-impl.md
 <div/>
