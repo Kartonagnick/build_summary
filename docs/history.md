@@ -40,6 +40,52 @@
 
 --------------------------------------------------------------------------------
 
+[![P]][H] **v0.0.2 (dev)**
+--------------------------------------------------------------------------------
+[![V]][VE002] [![2025-11-04 03:40]][VE002]  
+
+[2025-11-04 03:40]: https://img.shields.io/static/v1?label=2025-11-04&message=03:40&color=yellowgreen
+[VE002]: changelog.md#-v002-dev
+
+|    дата    | время |     ветка      | статус |  
+|:----------:|:-----:|:--------------:|:------:|  
+| 2025-11-04 | 03:30 | [#2-dev-frame] | DONE   |  
+| 2025-11-04 | 02:30 | [#2-dev-frame] | BEGIN  |  
+
+1. upd: `docs`  
+   - upd: `logo.png`          (002) PRE  
+   - upd: `changelog.md`      (002) PRE  
+   - upd: `history.md`        (002) PRE  
+   - upd: `chrono.md`         (002) PRE  
+   - upd: `docs.md`           (002) PRE  
+2. add: `include`  
+   - add: `build_summary.ver` (001) PRE  
+3. add: `test/include`  
+   - add: `test-stable.hpp`   (001) PRE  
+   - add: `test-develop.hpp`  (001) PRE  
+4. add: `test/sources/first`  
+   - add: `test-origin.cpp`   (001) PRE  
+   - add: `test-modern.cpp`   (003) PRE  
+   - add: `test-classic.cpp`  (003) PRE  
+5. add: `test/sources`  
+   - add: `pch.hpp`           (001) PRE  
+   - add: `main.cpp`          (001) PRE  
+   - add: `test.ver`          (001) PRE  
+6. add: `deploy`  
+   - add: `ver.bat`           (001) PRE  
+   - add: `make-debug.bat`    (001) PRE  
+   - add: `compilers.bat`     (001) PRE  
+   - add: `run-IDE.bat`       (001) PRE  
+   - add: `make.bat`          (001) PRE  
+7. add: `deploy/cmake`  
+   - add: `setup.cmake`       (001) PRE  
+   - add: `CMakeLists.txt`    (001) PRE  
+8. upd: `project.root`        (002) PRE  
+
+[#2-dev-frame]: tasks/2025-11-04-0002-dev-frame.md
+<div/>
+
+
 [![S]][H] **v0.0.1 (rep)**
 --------------------------------------------------------------------------------
 [![V]][VE001] [![2025-11-04 01:30]][VE001]  
