@@ -1,6 +1,7 @@
 
 // --- Kartonagnick/build_summary              [build_summary/build_summary.ver]
-// [2025-11-04][03:40:00] 001 Kartonagnick    
+// [2025-11-04][05:20:00] 002 Kartonagnick PRE
+// [2025-11-04][03:40:00] 001 Kartonagnick
 //   based on the story:
 //   --- CastleOfDreams/compile                            [compile/compile.ver]
 //   [2025-11-02][01:00:00] 034 Kartonagnick
@@ -15,13 +16,13 @@
 //==============================================================================
 
 #pragma once
-#ifndef dCOMPILE_VERSION_USED_ 
-#define dCOMPILE_VERSION_USED_ 34
+#ifndef dBUILD_SUMMARY_VERSION_USED_ 
+#define dBUILD_SUMMARY_VERSION_USED_ 2
 
-#define dCOMPILE_MAJOR 0
-#define dCOMPILE_MINOR 3
-#define dCOMPILE_PATCH 4
+#define dBUILD_SUMMARY_MAJOR 0
+#define dBUILD_SUMMARY_MINOR 0
+#define dBUILD_SUMMARY_PATCH 2
 
 //==============================================================================
 //==============================================================================
-#endif // dCOMPILE_VERSION_USED_
+#endif // dBUILD_SUMMARY_VERSION_USED_

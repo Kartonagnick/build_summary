@@ -6,7 +6,7 @@
 [S]: icons/success.png   "ошибок не обнаружено"
     
 <a name="main"></a>
-[![S]][H] Документация v0.0.2
+[![P]][H] Документация v0.0.3
 =============================
 Главная задача инструмента - вывод краткой информации о сборке:  
   - краткое описание конфигурации сборки.  
@@ -80,6 +80,71 @@ dSHOW_BUILD("[sample]", dSAMPLE)
 
 Таким образом, `dSAMPLE` - это префикс,  
 с помощью которого определяются тройки чисел версии.  
+<br/>
+
+
+dMANUAL_SHOW_COMPILER_VERSION
+-----------------------------
+Если дефайн препроцессора `dMANUAL_SHOW_COMPILER_VERSION` не определен,  
+тогда макрос `dSHOW_BUILD` автоматически вызывает `dSHOW_COMPILER_VERSION`,  
+что полностью соответствует обычному поведению.  
+
+Но если пользователь определил дефайн `dMANUAL_SHOW_COMPILER_VERSION`,  
+тогда макрос `dSHOW_BUILD` выведет только: 
+```
+6>  ---
+6>[sample] disabled -> pch
+6>[sample] STABLE-DEBUG
+6>[sample] MTd (debug-static runtime c++)
+6>[sample] 0.0.5, x86-debug-MTd, stable
+6>  ---
+```
+В этом случае, что бы увидеть информацию о версии компилятора,  
+пользователю нужно будет вызывать макрос `dSHOW_COMPILER_VERSION` вручную.  
+
+Вспомогательные макросы
+-----------------------
+Имеют вид:  
+
+```cpp
+#define dSTRINGIZE(...) #__VA_ARGS__
+#define dSSTRINGIZE(x) dSTRINGIZE(x)
+
+#define dBASIC_VERSION_NUM(MAJOR, MINOR, PATCH) \
+    MAJOR * 100 + MINOR * 10 + PATCH
+
+#define dBASIC_VERSION_STR(MAJOR, MINOR, PATCH) \
+    dSSTRINGIZE(MAJOR.MINOR.PATCH)
+
+#define dGET_BASIC_VERSION(NAME) \
+    dBASIC_VERSION_STR(NAME##_MAJOR, NAME##_MINOR, NAME##_PATCH)   
+
+#define dABOUT_ME \
+    dTXT_AMODEL "-" dTXT_CONFIG "-" dTXT_CRT ", " dTXT_STABLE 
+
+#define dFULL_ABOUT_ME(NAME) dGET_BASIC_VERSION(NAME) ", " dABOUT_ME
+```
+
+Пример использования:  
+
+```cpp
+#include <build_summary/build_summary.ver>
+#include <build_summary/info.hpp>
+
+#include <iostream>
+
+int main()
+{
+    std::cout << "VERSION: " << dFULL_ABOUT_ME(dBUILD_SUMMARY) << '\n';
+}
+
+```
+
+Вывод в консоль:  
+
+```
+VERSION: 0.0.2, x86-debug-MTd, stable
+```
 <br/>
 
 --------------------------------------------------------------------------------
