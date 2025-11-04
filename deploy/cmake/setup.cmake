@@ -1,6 +1,6 @@
 
 # --- Kartonagnick/build_summary                                   [setup.cmake]
-# [2025-11-04][03:40:00] 001 Kartonagnick PRE
+# [2025-11-04][03:40:00] 001 Kartonagnick    
 #   --- WorkSpace project (CastleOfDreams)                         [setup.cmake]
 #   [2022-06-18][19:00:00] 006 Kartonagnick
 #   [2022-06-09][19:00:00] 005 Kartonagnick BUG

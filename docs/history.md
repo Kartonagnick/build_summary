@@ -40,7 +40,7 @@
 
 --------------------------------------------------------------------------------
 
-[![P]][H] **v0.0.2 (dev)**
+[![S]][H] **v0.0.2 (dev)**
 --------------------------------------------------------------------------------
 [![V]][VE002] [![2025-11-04 03:40]][VE002]  
 
@@ -53,34 +53,34 @@
 | 2025-11-04 | 02:30 | [#2-dev-frame] | BEGIN  |  
 
 1. upd: `docs`  
-   - upd: `logo.png`          (002) PRE  
-   - upd: `changelog.md`      (002) PRE  
-   - upd: `history.md`        (002) PRE  
-   - upd: `chrono.md`         (002) PRE  
-   - upd: `docs.md`           (002) PRE  
+   - upd: `logo.png`           002  
+   - upd: `changelog.md`       002  
+   - upd: `history.md`         002  
+   - upd: `chrono.md`          002  
+   - upd: `docs.md`            002  
 2. add: `include/build_summary`  
-   - add: `build_summary.ver` (001) PRE  
+   - add: `build_summary.ver`  001  
 3. add: `test/include`  
-   - add: `test-stable.hpp`   (001) PRE  
-   - add: `test-develop.hpp`  (001) PRE  
+   - add: `test-stable.hpp`    001  
+   - add: `test-develop.hpp`   001  
 4. add: `test/sources/first`  
-   - add: `test-origin.cpp`   (001) PRE  
-   - add: `test-modern.cpp`   (003) PRE  
-   - add: `test-classic.cpp`  (003) PRE  
+   - add: `test-origin.cpp`    001  
+   - add: `test-modern.cpp`    003  
+   - add: `test-classic.cpp`   003  
 5. add: `test/sources`  
-   - add: `pch.hpp`           (001) PRE  
-   - add: `main.cpp`          (001) PRE  
-   - add: `test.ver`          (001) PRE  
+   - add: `pch.hpp`            001  
+   - add: `main.cpp`           001  
+   - add: `test.ver`           001  
 6. add: `deploy`  
-   - add: `ver.bat`           (001) PRE  
-   - add: `make-debug.bat`    (001) PRE  
-   - add: `compilers.bat`     (001) PRE  
-   - add: `run-IDE.bat`       (001) PRE  
-   - add: `make.bat`          (001) PRE  
+   - add: `ver.bat`            001  
+   - add: `make-debug.bat`     001  
+   - add: `compilers.bat`      001  
+   - add: `run-IDE.bat`        001  
+   - add: `make.bat`           001  
 7. add: `deploy/cmake`  
-   - add: `setup.cmake`       (001) PRE  
-   - add: `CMakeLists.txt`    (001) PRE  
-8. upd: `project.root`        (002) PRE  
+   - add: `setup.cmake`        001  
+   - add: `CMakeLists.txt`     001  
+8. upd: `project.root`         002  
 
 [#2-dev-frame]: tasks/2025-11-04-0002-dev-frame.md
 <div/>
