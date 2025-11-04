@@ -52,6 +52,33 @@
 | 2025-11-04 | 05:10 | [#3-dev-impl] | DONE   |  
 | 2025-11-04 | 04:10 | [#3-dev-impl] | BEGIN  |  
 
+1. upd: `docs`  
+   - upd: `logo.png`          (003) PRE  
+   - upd: `changelog.md`      (003) PRE  
+   - upd: `history.md`        (003) PRE  
+   - upd: `chrono.md`         (003) PRE  
+   - upd: `docs.md`           (003) PRE  
+2. upd: `test/sources`  
+   - upd: `test.ver`          (002) PRE  
+   - upd: `pch.hpp`           (002) PRE  
+3. upd: `include/build_summary`  
+   - upd: `build_summary.ver` (002) PRE  
+   - add: `message.hpp`       (001) PRE  
+   - add: `info.hpp`          (001) PRE  
+4. add: `include/build_summary/private`  
+   - add: `show.hpp`          (002) PRE  
+   - add: `select.hpp`        (001) PRE  
+   - add: `cplusplus.hpp`     (003) PRE  
+   - add: `compilers.hpp`     (001) PRE  
+5. add: `include/build_summary/private/compilers`  
+   - add: `zfinal.hpp`        (001) PRE  
+   - add: `msvc_tag.hpp`      (004) PRE  
+   - add: `msvc.hpp`          (001) PRE  
+   - add: `mingw.hpp`         (004) PRE  
+   - add: `gcc.hpp`           (004) PRE  
+   - add: `clang.hpp`         (004) PRE  
+6. upd: `project.root`        (003) PRE  
+
 [#3-dev-impl]: tasks/2025-11-04-0003-dev-impl.md
 <div/>
 
